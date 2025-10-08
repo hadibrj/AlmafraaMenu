@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Restaurant Menu</title>
+  <style>
+    body {
+      background: #000;
+      color: #FFD600;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .menu-container {
+      max-width: 500px;
+      margin: 40px auto;
+      background: #111;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.7);
+      padding: 30px;
+    }
+    h1 {
+      text-align: center;
+      color: #FFD600;
+      margin-bottom: 30px;
+      letter-spacing: 2px;
+    }
+    .menu-section {
+      margin-bottom: 25px;
+    }
+    .item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid #FFD60044;
+    }
+    .item:last-child {
+      border-bottom: none;
+    }
+    .item-name {
+      font-weight: bold;
+    }
+    .item-price {
+      color: #FFD600;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <h1>Black & Yellow Bistro</h1>
+    <div class="menu-section">
+      <h2>Starters</h2>
+      <div class="item">
+        <span class="item-name">Cheese Sticks</span>
+        <span class="item-price">$5</span>
+      </div>
+      <div class="item">
+        <span class="item-name">Garlic Bread</span>
+        <span class="item-price">$4</span>
+      </div>
+    </div>
+    <div class="menu-section">
+      <h2>Mains</h2>
+      <div class="item">
+        <span class="item-name">Grilled Chicken</span>
+        <span class="item-price">$12</span>
+      </div>
+      <div class="item">
+        <span class="item-name">Veggie Burger</span>
+        <span class="item-price">$10</span>
+      </div>
+    </div>
+    <div class="menu-section">
+      <h2>Desserts</h2>
+      <div class="item">
+        <span class="item-name">Chocolate Cake</span>
+        <span class="item-price">$6</span>
+      </div>
+      <div class="item">
+        <span class="item-name">Ice Cream</span>
+        <span class="item-price">$4</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
